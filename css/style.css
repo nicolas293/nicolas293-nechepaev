@@ -39,14 +39,3 @@
     background: #CFCFCF;
 
 }
-
-#footer {
-    display: grid;
-    grid-area: f;
-}
-#mainFooter {
-    display: grid;
-    border-radius: 20px;
-    background: #909090;
-    margin-right: 15%;
-}
