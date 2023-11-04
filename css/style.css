@@ -37,5 +37,13 @@
     display: grid;
     border-radius: 20px;
     background: #CFCFCF;
+}
 
+#iconsImgContent {
+    display: grid;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 0px;
+    height: 0px;
 }
