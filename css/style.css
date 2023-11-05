@@ -23,6 +23,9 @@
     display: grid;
     height: 60px;
     width: 64px;
+    margin-left: 21px;
+    margin-top: 7px;
+    
     position: absolute;
     grid-template-areas:
         "h01 h1"
@@ -78,7 +81,7 @@ p {
 }
 #mainContent {
     display: grid;
-    grid-gap: 20px;
+    margin-left: 0px;
     border-radius: 20px;
     background: #CFCFCF;
     grid-template-rows: 145px;
@@ -90,7 +93,9 @@ p {
 #iconsImgContent img {
     display: grid;
     position: absolute;
-    margin-top: 71px;
+    margin-left: 22px;
+    margin-top: 60px;
+    height: 108px;
 }
 
 #h1 {
@@ -116,6 +121,29 @@ p {
 #h6 {
      display: grid;
      grid-area: h6;
+}
+
+#icoPlus, #plusIcons {
+    display: grid;
+    cursor: pointer;
+    position: absolute;
+    height: 56px;
+}
+#icoMinus, #minusIcons {
+    display: grid;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 22px;
+    height: 56px;
+}
+
+#аvatar {
+    display: grid;
+    position: absolute;
+    font-size: 24px;
+    margin-left: 23%;
+    margin-top: 11px;
+    color: aliceblue;
 }
   
 
