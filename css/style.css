@@ -139,6 +139,7 @@ p {
 
 #аvatar {
     display: grid;
+    cursor: pointer;
     position: absolute;
     font-size: 24px;
     margin-left: 23%;
