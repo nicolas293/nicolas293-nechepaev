@@ -19,6 +19,49 @@
     background: #909090;
 }
 
+#iconsMainSidebar, img p {
+    display: grid;
+    height: 60px;
+    width: 64px;
+    position: absolute;
+    grid-template-areas:
+        "h01 h1"
+        "h02 h2"
+        "h03 h3"
+        "h04 h4"
+        "h05 h5";
+   
+}
+
+#h01, .h1 {
+    display: grid;
+    grid-area: h01 h1;
+}
+#h02 .h2{
+    display: grid;
+    grid-area: h02 h2;
+}
+#h03 .h3{
+    display: grid;
+    grid-area: h03 h3;
+}
+#h04 .h4{
+    display: grid;
+    grid-area: h04 h4;
+}
+#h05 .h5{
+    display: grid;
+    grid-area: h05 h5;
+}
+
+p {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 34px;
+    font-size: 28px;
+    color: aliceblue;
+}
+
 #sidebar {
     display: grid;
     grid-area: s;
@@ -35,15 +78,44 @@
 }
 #mainContent {
     display: grid;
+    grid-gap: 20px;
     border-radius: 20px;
     background: #CFCFCF;
+    grid-template-rows: 145px;
+    grid-template-areas: 
+        "h1 h2 h3"
+        "h4 h5 h6";
 }
 
 #iconsImgContent img {
     display: grid;
     position: absolute;
-    margin-left: 0px;
-    margin-top: 0px;
-    height: 0px;
-    width: 0px;
+    margin-top: 71px;
 }
+
+#h1 {
+   display: grid;
+   grid-area: h1; 
+}
+#h2 {
+    display: grid;
+    grid-area: h2;
+}
+#h3 {
+    display: grid;
+    grid-area: h3; 
+}
+#h4 {
+    display: grid;
+    grid-area: h4;
+}
+#h5 {
+    display: grid;
+    grid-area: h5; 
+}
+#h6 {
+     display: grid;
+     grid-area: h6;
+}
+  
+
